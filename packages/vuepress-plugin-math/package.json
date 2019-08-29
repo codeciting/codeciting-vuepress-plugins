@@ -1,0 +1,27 @@
+{
+  "name": "@codeciting/vuepress-plugin-math",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Jagger <jagger@codeciting.com>",
+  "homepage": "",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "katex": "^0.11.0"
+  },
+  "devDependencies": {
+    "@types/markdown-it": "^0.0.8"
+  }
+}

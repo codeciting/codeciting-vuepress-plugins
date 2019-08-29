@@ -1,0 +1,24 @@
+{
+  "name": "@codeciting/vuepress-plugin-plantuml",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Jagger <jagger@codeciting.com>",
+  "homepage": "",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "markdown-it-plantuml": "^1.4.1"
+  }
+}

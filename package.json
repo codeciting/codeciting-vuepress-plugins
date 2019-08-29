@@ -1,0 +1,9 @@
+{
+  "name": "codeciting-vuepress-plugins",
+  "private": true,
+  "author": "Jagger <jagger@codeciting.com>",
+  "devDependencies": {
+    "lerna": "^3.16.4",
+    "vuepress": "^1.0.3"
+  }
+}
