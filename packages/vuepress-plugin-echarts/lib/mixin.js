@@ -1,4 +1,4 @@
-const loadScript = require('../node_modules/load-script2/index')
+const loadScript = require('./load-script2')
 
 export default {
   updated () {
