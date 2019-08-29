@@ -1,5 +1,5 @@
 // Copy of `load-script2` package.
-module.exports = function load (src, attrs, parentNode) {
+export default function load (src, attrs, parentNode) {
   return new Promise((resolve, reject) => {
     const script = document.createElement('script')
     script.async = true

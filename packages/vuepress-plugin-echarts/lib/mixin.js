@@ -1,4 +1,4 @@
-const loadScript = require('./load-script2')
+import loadScript from './load-script2'
 
 export default {
   updated () {
