@@ -19,5 +19,6 @@
   },
   "dependencies": {
     "markdown-it-plantuml": "^1.4.1"
-  }
+  },
+  "gitHead": "1f4fcf06cab1fbee1f2e0b3bea2d3b826298052f"
 }

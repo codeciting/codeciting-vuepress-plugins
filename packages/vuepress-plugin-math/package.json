@@ -22,5 +22,6 @@
   },
   "devDependencies": {
     "@types/markdown-it": "^0.0.8"
-  }
+  },
+  "gitHead": "1f4fcf06cab1fbee1f2e0b3bea2d3b826298052f"
 }
