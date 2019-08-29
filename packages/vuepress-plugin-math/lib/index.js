@@ -13,7 +13,7 @@ module.exports = function (options, ctx) {
     'link',
     {
       rel: 'stylesheet',
-      href: cssResolver(require('../node_modules/katex/package.json').version)
+      href: cssResolver(require('katex').version)
     }
   ])
 
