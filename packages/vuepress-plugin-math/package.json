@@ -1,6 +1,6 @@
 {
   "name": "@codeciting/vuepress-plugin-math",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "> TODO: description",
   "author": "Jagger <jagger@codeciting.com>",
   "homepage": "",
@@ -13,8 +13,7 @@
   "files": [
     "lib"
   ],
-  "publishConfig": {
-  },
+  "publishConfig": {},
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
