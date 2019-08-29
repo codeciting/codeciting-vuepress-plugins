@@ -1,6 +1,6 @@
 {
   "name": "@codeciting/vuepress-plugin-site",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "> TODO: description",
   "author": "Jagger <jagger@codeciting.com>",
   "homepage": "",
@@ -18,8 +18,8 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@codeciting/vuepress-plugin-echarts": "^0.1.0",
-    "@codeciting/vuepress-plugin-math": "^0.1.0",
-    "@codeciting/vuepress-plugin-plantuml": "^0.1.0"
+    "@codeciting/vuepress-plugin-echarts": "^0.1.1",
+    "@codeciting/vuepress-plugin-math": "^0.1.1",
+    "@codeciting/vuepress-plugin-plantuml": "^0.1.1"
   }
 }
