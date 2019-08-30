@@ -10,7 +10,10 @@
     "test": "__tests__"
   },
   "files": [
-    "lib"
+    "lib",
+    "components",
+    "layouts",
+    "index.js"
   ],
   "repository": {
     "type": "git",
