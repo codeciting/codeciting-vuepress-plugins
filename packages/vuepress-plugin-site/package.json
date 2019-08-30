@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "@codeciting/vuepress-plugin-echarts": "^0.1.3",
+    "@codeciting/vuepress-plugin-gitinfo": "^0.1.4",
     "@codeciting/vuepress-plugin-math": "^0.1.4",
     "@codeciting/vuepress-plugin-plantuml": "^0.1.3"
   }

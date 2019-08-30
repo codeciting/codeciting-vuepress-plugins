@@ -4,6 +4,7 @@ module.exports = {
   plugins: [
     '@codeciting/math',
     '@codeciting/plantuml',
-    '@codeciting/echarts'
+    '@codeciting/echarts',
+    '@codeciting/gitinfo'
   ]
 }
