@@ -22,5 +22,6 @@
     "@codeciting/vuepress-plugin-gitinfo": "^0.1.5",
     "@codeciting/vuepress-plugin-math": "^0.1.4",
     "@codeciting/vuepress-plugin-plantuml": "^0.1.3"
-  }
+  },
+  "gitHead": "9a4b97f270e7218ab1107ba4c01688fa263ca53a"
 }

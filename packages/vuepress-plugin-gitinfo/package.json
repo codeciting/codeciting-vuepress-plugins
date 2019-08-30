@@ -25,5 +25,6 @@
   },
   "dependencies": {
     "cross-spawn": "^6.0.5"
-  }
+  },
+  "gitHead": "9a4b97f270e7218ab1107ba4c01688fa263ca53a"
 }

@@ -20,5 +20,6 @@
   "dependencies": {
     "load-script2": "^2.0.2",
     "markdown-it-container": "^2.0.0"
-  }
+  },
+  "gitHead": "9a4b97f270e7218ab1107ba4c01688fa263ca53a"
 }
