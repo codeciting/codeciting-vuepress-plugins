@@ -1,6 +1,6 @@
 {
   "name": "@codeciting/vuepress-theme-codeciting",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "> TODO: description",
   "author": "Jagger <linjie.gao@tendcloud.com>",
   "homepage": "https://github.com/codeciting/codeciting-vuepress-plugins#readme",
@@ -26,7 +26,7 @@
     "url": "https://github.com/codeciting/codeciting-vuepress-plugins/issues"
   },
   "dependencies": {
-    "@codeciting/vuepress-plugin-site": "^0.2.0"
+    "@codeciting/vuepress-plugin-site": "^0.2.2"
   },
   "peerDependencies": {
     "@vuepress/theme-default": "^1.0.3"
