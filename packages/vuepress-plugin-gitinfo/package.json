@@ -1,0 +1,29 @@
+{
+  "name": "@codeciting/vuepress-plugin-gitinfo",
+  "version": "0.1.4",
+  "description": "> TODO: description",
+  "author": "Jagger <linjie.gao@tendcloud.com>",
+  "homepage": "https://github.com/codeciting/codeciting-vuepress-plugins#readme",
+  "license": "MIT",
+  "main": "lib/vuepress-plugin-gitinfo.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeciting/codeciting-vuepress-plugins.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/codeciting/codeciting-vuepress-plugins/issues"
+  },
+  "dependencies": {
+    "cross-spawn": "^6.0.5"
+  }
+}

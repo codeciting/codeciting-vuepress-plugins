@@ -25,6 +25,7 @@ module.exports = {
   plugins: [
     require('../packages/vuepress-plugin-math/lib'),
     require('../packages/vuepress-plugin-plantuml/lib'),
-    require('../packages/vuepress-plugin-echarts/lib')
+    require('../packages/vuepress-plugin-echarts/lib'),
+    require('../packages/vuepress-plugin-gitinfo/lib')
   ]
 }
