@@ -7,15 +7,6 @@ module.exports = function (options = {}, ctx) {
   let { transformer } = options
 
   return {
-    ready () {
-      _r = getRecentlyChangedFiles()
-      Object.defineProperty(_r, '_lang', {
-        writable: true,
-        value: null,
-        enumerable: false,
-        configurable: false
-      })
-    },
     extendPageData ($page) {
       const $lang = $page._computed.$lang
 
@@ -27,7 +18,13 @@ module.exports = function (options = {}, ctx) {
       $page.recentUpdates = getRecentlyChangedLog($page._filePath)
       $page.recentUpdates.forEach(log => log.updateDate = transformer(log.updateDateTimestamp))
       if (!_r) {
-        return
+        _r = getRecentlyChangedFiles()
+        Object.defineProperty(_r, '_lang', {
+          writable: true,
+          value: null,
+          enumerable: false,
+          configurable: false
+        })
       }
       if (_r._lang !== $lang) {
         _r._lang = $lang
