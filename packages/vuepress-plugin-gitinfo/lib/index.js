@@ -66,8 +66,6 @@ function getGitAuthors (filePath) {
 }
 
 function getRecentlyChangedLog (file, count = 5) {
-  console.log(file)
-
   function parseResult (raw) {
     const lines = raw.split(/\n/m)
     const records = []
