@@ -1,0 +1,34 @@
+{
+  "name": "@codeciting/vuepress-theme-codeciting",
+  "version": "0.1.4",
+  "description": "> TODO: description",
+  "author": "Jagger <linjie.gao@tendcloud.com>",
+  "homepage": "https://github.com/codeciting/codeciting-vuepress-plugins#readme",
+  "license": "MIT",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.yarnpkg.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeciting/codeciting-vuepress-plugins.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/codeciting/codeciting-vuepress-plugins/issues"
+  },
+  "dependencies": {
+    "@codeciting/vuepress-plugin-site": "^0.1.4"
+  },
+  "peerDependencies": {
+    "@vuepress/theme-default": "^1.0.3"
+  }
+}
