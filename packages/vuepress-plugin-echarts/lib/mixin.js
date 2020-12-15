@@ -11,17 +11,21 @@ export default {
       }
       nodes.forEach(node => {
         const { echartsWidth, echartsHeight } = node.dataset
+        const wrapper = document.createElement('wrapper')
+        wrapper.style.width = '100%'
+        wrapper.style.height = echartsHeight
         const div = document.createElement('div')
         div.style.width = echartsWidth
         div.style.height = echartsHeight
         div.style.margin = '12px auto'
         div.style.overflow = 'scroll'
-        node.parentElement.replaceChild(div, node)
+        wrapper.appendChild(div)
+        node.parentElement.replaceChild(wrapper, node)
         const ei = echarts.init(div, 'default')
         this._echartInstances.push({
           instance: ei,
           originalNode: node,
-          instanceNode: div
+          instanceNode: wrapper
         })
         try {
           const json = eval(`(${node.innerText})`)
